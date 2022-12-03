@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54827be7-986f-44fe-8d03-9f319052cc7c" name="Changes" comment="adding everything">
+    <list default="true" id="54827be7-986f-44fe-8d03-9f319052cc7c" name="Changes" comment="removing unnecessary files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/we/geee/util/JDBCUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editpost.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teehee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,8 @@
       <updated>1669940670544</updated>
       <workItem from="1669940672585" duration="12539000" />
       <workItem from="1670058450756" duration="3971000" />
-      <workItem from="1670062632715" duration="311000" />
+      <workItem from="1670062632715" duration="3538000" />
+      <workItem from="1670068456767" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="adding everything">
       <created>1670061794749</created>
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670061794749</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removing unnecessary files">
+      <created>1670063039271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670063039271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding everything" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding everything" />
+    <MESSAGE value="removing unnecessary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing unnecessary files" />
   </component>
 </project>
