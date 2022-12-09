@@ -11,7 +11,7 @@ import we.geee.board.BoardVO;
 
 @Controller
 @RequestMapping(value = "/board")
-public class BoardControll {
+public class BoardControl {
     @Autowired
     BoardServiceImpl boardService;
 
