@@ -10,7 +10,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserVO {
-    private int id;
-    private String usernm;
-    private String passwd;
+    private int seq;
+    private String userid;
+    private String username;
+    private String password;
 }
