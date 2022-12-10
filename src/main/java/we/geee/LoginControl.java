@@ -2,6 +2,7 @@ package we.geee;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import we.geee.user.UserServiceImpl;
@@ -21,7 +22,7 @@ public class LoginControl {
     }
 
     @RequestMapping(value = "/loginOk",method = RequestMethod.POST)
-    public String loginOk(HttpSession session, UserVO vo){
+    public String loginOk(HttpSession session, UserVO vo, Model model){
         String toRet = "";
 
         if(session.getAttribute("login")!=null){
@@ -34,6 +35,7 @@ public class LoginControl {
             toRet = "redirect:/board/list";
             System.out.println("로그인 성공");
         }else{
+            model.addAttribute("fail",true);
             toRet = "redirect:/login/login";
         }
         return toRet;

@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54827be7-986f-44fe-8d03-9f319052cc7c" name="Changes" comment="login">
+    <list default="true" id="54827be7-986f-44fe-8d03-9f319052cc7c" name="Changes" comment="security works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/we/geee/user/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/we/geee/user/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/we/geee/util/LoginCheckInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/we/geee/util/LoginCheckInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/we/geee/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/we/geee/LoginControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +190,7 @@
       <workItem from="1670172604961" duration="207000" />
       <workItem from="1670544172823" duration="8635000" />
       <workItem from="1670592832954" duration="132000" />
-      <workItem from="1670638484004" duration="1497000" />
+      <workItem from="1670638484004" duration="2372000" />
     </task>
     <task id="LOCAL-00001" summary="adding everything">
       <created>1670061794749</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670551886862</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="security works">
+      <created>1670640154186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670640154186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +261,7 @@
     <MESSAGE value="removing unnecessary files" />
     <MESSAGE value="changed form to have attributemodels" />
     <MESSAGE value="login" />
-    <option name="LAST_COMMIT_MESSAGE" value="login" />
+    <MESSAGE value="security works" />
+    <option name="LAST_COMMIT_MESSAGE" value="security works" />
   </component>
 </project>

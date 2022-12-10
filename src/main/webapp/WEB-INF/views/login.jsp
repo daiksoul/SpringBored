@@ -5,7 +5,7 @@
   Time: 오전 10:02
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +16,10 @@
         label{ width:130px}
         button{ background-color:blue; color:white;font-size:15px}
     </style>
+    <script>
+        if(${param.get("fail")})
+            alert("로그인에 실패하였습니다.")
+    </script>
 </head>
 <body>
 <div style='width:100%; text-align:center; padding-top:100px'>
